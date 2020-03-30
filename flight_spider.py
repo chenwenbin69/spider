@@ -15,11 +15,12 @@ city_dict = {'上海' : 'sha',
              '北京' : 'bjs',
              '呼伦贝尔' : 'hld'
 }
+city_dict_to_reverse = { v:k for k,v in city_dict.items()}  # 翻转dict，调换key和value的位置，便于在屏幕上输出地名
 source = city_dict['上海']
 destination = city_dict['呼伦贝尔']
-weeks = [0,1,2,3,4,5,6] #判断日期为周几时使用
+weeks = [0,1,2,3,4,5,6] # 判断日期为周几时使用
 days = []
-duration = 2 #游玩周期3天
+duration = 2    # 游玩周期3天
 # duration_plus = duration + 1
 url = 'https://flights.ctrip.com/itinerary/api/12808/lowestPrice'
 headers = {
@@ -37,10 +38,10 @@ for k in res['data']['roundTripPrice'].keys():
 
 for firstday in days:
     week = datetime.strptime(firstday,"%Y%m%d").weekday()
-    if week == weeks[4]: #4是周五，预计周五出发，好请假
+    if week == weeks[4]:    # 4是周五，预计周五出发，好请假
         firstday_date = datetime.strptime(firstday,'%Y%m%d').date()
         lastday_date = firstday_date + timedelta(days=duration)
-        print("出发地{}，目的地{}".format(source,destination))
+        print("出发地：{}，目的地：{}".format(city_dict_to_reverse[source],city_dict_to_reverse[destination]))
         print("出发日期：{}，返程日期：{}。".format(firstday_date,lastday_date))
         lastday = datetime.strftime(lastday_date,'%Y%m%d')
         price_list = res['data']['roundTripPrice'][firstday]
