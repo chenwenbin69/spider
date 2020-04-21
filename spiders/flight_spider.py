@@ -21,7 +21,6 @@ destination = city_dict['呼伦贝尔']
 weeks = [0,1,2,3,4,5,6] # 判断日期为周几时使用
 days = []
 duration = 2    # 游玩周期3天
-# duration_plus = duration + 1
 url = 'https://flights.ctrip.com/itinerary/api/12808/lowestPrice'
 headers = {
     'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
