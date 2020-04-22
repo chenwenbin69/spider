@@ -93,6 +93,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.taobao_spider" />
+        <item itemvalue="Python.taobao_spider" />
+        <item itemvalue="Python.taobao_spider" />
       </list>
     </recent_temporary>
   </component>
@@ -112,5 +114,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="474" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587574258719">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1587574258719" />
   </component>
 </project>
