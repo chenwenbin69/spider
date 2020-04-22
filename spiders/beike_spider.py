@@ -42,6 +42,6 @@ beike_session = requests.session()
 requests.utils.add_dict_to_cookiejar(beike_session.cookies, cookies)
 
 secondhand_res = beike_session.get("{}{}".format(base_url,search_secondhand_api,secondhand_params))
-# print(secondhand_res.text)
+print(secondhand_res.text)
 
 
