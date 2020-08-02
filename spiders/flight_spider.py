@@ -11,16 +11,16 @@ import requests
 import json
 from datetime import datetime,timedelta
 
-city_dict = {'上海' : 'sha',
+city_map = {'上海' : 'sha',
              '北京' : 'bjs',
              '呼伦贝尔' : 'hld'
 }
-city_dict_to_reverse = { v:k for k,v in city_dict.items()}  # 翻转dict，调换key和value的位置，便于在屏幕上输出地名
-source = city_dict['上海']
-destination = city_dict['呼伦贝尔']
+city_dict_to_reverse = { v:k for k,v in city_map.items()}  # 翻转dict，调换key和value的位置，便于在屏幕上输出地名
+source = city_map['上海']
+destination = city_map['呼伦贝尔']
 weeks = [0,1,2,3,4,5,6] # 判断日期为周几时使用
 days = []
-duration = 2    # 游玩周期3天
+duration = 4    # 游玩周期3天
 url = 'https://flights.ctrip.com/itinerary/api/12808/lowestPrice'
 headers = {
     'user-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36'
@@ -45,7 +45,7 @@ for firstday in days:
         lastday = datetime.strftime(lastday_date,'%Y%m%d')
         price_list = res['data']['roundTripPrice'][firstday]
         if lastday in price_list.keys():
-            print("间隔{}天往返总价：￥{}".format(duration,price_list[lastday]) + '\n')
+            print("间隔{}天往返票价：￥{}".format(duration,price_list[lastday]) + '\n' + '#'*20 + '\n')
         else:
             print("懒得处理了！" + '\n')
 
