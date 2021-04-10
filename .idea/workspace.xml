@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53b9d23-1119-4ea6-9d07-2f3dc9958d05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/spiders/beike_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/beike_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/age03_edu_sh.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/age03_edu_sh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/age03_edu_sh_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/age03_edu_sh_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/sogou.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sogou.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/sogou_news_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/sogou_news_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/toutiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/toutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spiders/Jarvis/toutiao_news_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/toutiao_news_data.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,9 +60,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -67,7 +78,28 @@
       <recent name="$PROJECT_DIR$/spiders" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.flight_spider">
+    <configuration name="flight_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spiders/flight_spider.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="taobao_spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,12 +124,14 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.flight_spider" />
         <item itemvalue="Python.taobao_spider" />
         <item itemvalue="Python.taobao_spider" />
         <item itemvalue="Python.taobao_spider" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -115,10 +149,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目合并至一个目录下" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目合并至一个目录下" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="474" y="170" key="git4idea.branch.GitSmartOperationDialog" timestamp="1587574258719">
+    <state x="26" y="25" width="1387" height="814" key="CommitChangelistDialog2" timestamp="1618034031585">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="474" y="170" key="git4idea.branch.GitSmartOperationDialog/0.0.1440.900@0.0.1440.900" timestamp="1587574258719" />
+    <state x="26" y="25" width="1387" height="814" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1618034031585" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1618033666699">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1618033666699" />
   </component>
 </project>
