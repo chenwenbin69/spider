@@ -6,7 +6,7 @@ import requests
 from lxml import etree
 import csv
 
-f = open('/Users/chenwenbin/PycharmProjects/spider/file/豆瓣读书top250.csv','w',encoding='utf-8')
+f = open('/files/豆瓣读书top250.csv', 'w', encoding='utf-8')
 writer = csv.writer(f)
 writer.writerow(('书名','详情链接','作者','评分','建平'))
 

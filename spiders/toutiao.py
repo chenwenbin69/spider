@@ -18,7 +18,7 @@ def switch_new_window():
         if new_handle != now_handle:
             browser.switch_to.window(new_handle)
 
-file = open('/Users/chenwenbin/PycharmProjects/Jarvis/toutiao_news_data.csv','w',encoding='utf-8-sig')
+file = open('/files/toutiao_news_data.csv', 'w', encoding='utf-8-sig')
 writer = csv.writer(file)
 writer.writerow(('新闻标题','新闻发布时间','新闻作者','新闻正文','新闻插图'))
 

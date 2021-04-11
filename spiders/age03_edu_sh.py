@@ -95,7 +95,7 @@ class DataSeeker:
         return dSFBZ
 
 # 打开文件，准备写入数据
-file = open('/Users/chenwenbin/PycharmProjects/Jarvis/age03_edu_sh_data.csv','w',encoding='utf-8-sig')
+file = open('/files/age03_edu_sh_data.csv', 'w', encoding='utf-8-sig')
 writer = csv.writer(file)
 writer.writerow(('机构名称','机构编号','机构类型','服务形式','区托育服务管理机构','机构负责人','机构联系电话','举办者','地址','供餐情况','收费情况[元/月]'))
 
