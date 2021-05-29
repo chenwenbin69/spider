@@ -1,4 +1,4 @@
-lxml==4.5.2
+lxml==4.6.3
 selenium==3.141.0
 requests==2.24.0
 gne==0.2.6
